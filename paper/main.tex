@@ -55,7 +55,7 @@ Aldous and Fill~\cite[Section~7.1.3, Corollary~7.3, p.~241]{AF} show that for a 
 Does random walk on an arc-transitive graph have some monotonicity property stronger than that of Corollary~7.3?
 \end{question}
 
-The property that $r_{xy}$ is non-decreasing for every pair $x,y$ is now called monotonic normalized heat diffusion. Peres asked in 2013 whether it holds on every vertex-transitive graph, and Regev and Shinkar~\cite{RS} answered no with a Cayley graph. It holds on abelian Cayley graphs (Price~\cite{Pr}), on graphs with three distinct Laplacian eigenvalues (Nica~\cite{Ni}), on regular bipartite graphs with four distinct eigenvalues (Kubo and Namba~\cite{KN}), and on distance-regular graphs with classical parameters of diameter~$3$ (Liu and Zhang~\cite{LZ}). The theorems below give such a property at distance one, for a class containing the arc-transitive graphs.
+The property that $r_{xy}$ is non-decreasing for every pair $x,y$ is now called monotonic normalized heat diffusion. Peres asked in 2013 whether it holds on every vertex-transitive graph, and Regev and Shinkar~\cite{RS} answered no with a Cayley graph. It holds on abelian Cayley graphs (McMurray Price~\cite{Pr}), on graphs with three distinct Laplacian eigenvalues (Nica~\cite{Ni}), on regular bipartite graphs with four distinct eigenvalues (Kubo and Namba~\cite{KN}), and on distance-regular graphs with classical parameters of diameter~$3$ (Liu and Zhang~\cite{LZ}). The theorems below give such a property at distance one, for a class containing the arc-transitive graphs.
 
 \begin{definition}
 The graph $G$ is \emph{$1$-walk-regular} if for every $k\ge0$ the diagonal entries of $A^k$ are all equal and the entries $(A^k)_{xy}$ with $xy\in E$ are all equal.
@@ -208,14 +208,14 @@ The paper is part of the Math Brain project, whose public repository is \url{htt
 \bibitem{AF} D.~Aldous and J.~A.~Fill, \emph{Reversible Markov Chains and Random Walks on Graphs}, unfinished monograph, 2002, recompiled 2014, \url{https://www.stat.berkeley.edu/~aldous/RWG/book.html}.
 \bibitem{Bi} N.~Biggs, \emph{Algebraic Graph Theory}, 2nd ed., Cambridge University Press, Cambridge, 1993.
 \bibitem{BCN} A.~E.~Brouwer, A.~M.~Cohen and A.~Neumaier, \emph{Distance-Regular Graphs}, Springer, Berlin, 1989.
-\bibitem{DFG} C.~Dalf\'o, M.~A.~Fiol and E.~Garriga, \emph{On $k$-walk-regular graphs}, Electron.\ J.\ Combin.\ \textbf{16} (2009), \#R47.
-\bibitem{GM} C.~D.~Godsil and B.~D.~McKay, \emph{Feasibility conditions for the existence of walk-regular graphs}, Linear Algebra Appl.\ \textbf{30} (1980), 51--61.
+\bibitem{DFG} C.~Dalf\'o, M.~A.~Fiol and E.~Garriga, \emph{On $k$-walk-regular graphs}, Electron.\ J.\ Combin.\ \textbf{16} (2009), \#R47, doi:10.37236/136.
+\bibitem{GM} C.~D.~Godsil and B.~D.~McKay, \emph{Feasibility conditions for the existence of walk-regular graphs}, Linear Algebra Appl.\ \textbf{30} (1980), 51--61, doi:10.1016/0024-3795(80)90180-9.
 \bibitem{GR} C.~Godsil and G.~Royle, \emph{Algebraic Graph Theory}, Graduate Texts in Mathematics \textbf{207}, Springer, New York, 2001.
-\bibitem{KN} T.~Kubo and R.~Namba, \emph{Monotonic normalized heat diffusion for regular bipartite graphs with four eigenvalues}, Graphs Combin.\ \textbf{38} (2022), paper no.~22.
-\bibitem{LZ} S.~Liu and H.~Zhang, \emph{Monotonic normalized heat diffusion for distance-regular graphs with classical parameters of diameter $3$}, arXiv:2505.04314.
-\bibitem{Ni} B.~Nica, \emph{A note on normalized heat diffusion for graphs}, Bull.\ Aust.\ Math.\ Soc.\ \textbf{102} (2020), 1--6.
-\bibitem{Pr} T.~M.~Price, \emph{An inequality for the heat kernel on an Abelian Cayley graph}, Electron.\ Commun.\ Probab.\ \textbf{22} (2017), paper no.~20.
-\bibitem{RS} O.~Regev and I.~Shinkar, \emph{A counterexample to monotonicity of relative mass in random walks}, Electron.\ Commun.\ Probab.\ \textbf{21} (2016), paper no.~11; arXiv:1506.08631.
+\bibitem{KN} T.~Kubo and R.~Namba, \emph{Monotonic normalized heat diffusion for regular bipartite graphs with four eigenvalues}, Graphs Combin.\ \textbf{38} (2022), paper no.~22, doi:10.1007/s00373-021-02424-4.
+\bibitem{LZ} S.~Liu and H.~Zhang, \emph{Monotonic normalized heat diffusion for distance-regular graphs with classical parameters of diameter $3$}, Graphs Combin.\ \textbf{41} (2025), paper no.~106, doi:10.1007/s00373-025-02969-8, arXiv:2505.04314.
+\bibitem{Ni} B.~Nica, \emph{A note on normalized heat diffusion for graphs}, Bull.\ Aust.\ Math.\ Soc.\ \textbf{102} (2020), 1--6, doi:10.1017/S0004972719001102.
+\bibitem{Pr} T.~McMurray Price, \emph{An inequality for the heat kernel on an Abelian Cayley graph}, Electron.\ Commun.\ Probab.\ \textbf{22} (2017), paper no.~20, doi:10.1214/17-ECP84, arXiv:1612.07306.
+\bibitem{RS} O.~Regev and I.~Shinkar, \emph{A counterexample to monotonicity of relative mass in random walks}, Electron.\ Commun.\ Probab.\ \textbf{21} (2016), paper no.~11, doi:10.1214/16-ECP4392, arXiv:1506.08631.
 \bibitem{code} Y.~Shmalo, \emph{Code for this paper}, \url{https://github.com/yspennstate/arc-transitive-edge-heat}.
 \bibitem{MathBrainRepo} Y.~Shmalo, \emph{Math Brain: public snapshot, code and tests}, 2026, \url{https://github.com/yspennstate/math-brain-public}.
 
